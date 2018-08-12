@@ -4,6 +4,16 @@
 
 .container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  height: 450px;
+  align-items: center;
 }
 
+.item{
+  flex: 1 200px;
+  align-self: stretch;
+}
+
+.item-1{
+  align-self: flex-start;
+}
