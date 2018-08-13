@@ -26,4 +26,7 @@ body {
 	margin: 5px;	
 	background: #3db5da;
 	border-radius: 3px;
+	transition:
+  	flex 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+    background 0.2s;
 }
